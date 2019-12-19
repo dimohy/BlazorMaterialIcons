@@ -1,10 +1,52 @@
-﻿
-<i class="material-icons">@Kind@ChildContent</i>
+﻿<i class="material-icons@(Theme switch
+            {
+                Themes.Filled => "",
+                Themes.Outlined => "-outlined",
+                Themes.Rounded => "-round",
+                Themes.TwoTone => "-two-tone",
+                Themes.Sharp => "-sharp",
+                _ => ""
+            })" style="font-size:@(Size)px;">@Kind@ChildContent</i>
 
 @code
 {
+    public enum Themes
+    {
+        Filled, // Default
+        Outlined,
+        Rounded,
+        TwoTone,
+        Sharp
+    }
+
+    public enum Icons
+    {
+        Action,
+        Alert,
+        Av,
+        Communication,
+        Content,
+        Device,
+        Editor,
+        File,
+        Hardware,
+        Image,
+        Maps,
+        Navigation,
+        Notification,
+        Places,
+        Social,
+        Toggle
+    }
+
+    [Parameter]
+    public Themes Theme { get; set; }
+
     [Parameter]
     public string Kind { get; set; }
+
+    [Parameter]
+    public int Size { get; set; } = 24;
 
     [Parameter]
     public RenderFragment ChildContent { get; set; }

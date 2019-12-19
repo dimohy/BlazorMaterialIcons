@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMaterialIcons", "src\BlazorMaterialIcons\BlazorMaterialIcons.csproj", "{483BFC70-5587-4112-B57F-C77C10D169FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer", "src\BlazorServer\BlazorServer.csproj", "{0260F3D4-11BD-4418-8FA0-03429DEE8E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMaterialIcons.Demo.ServerApp", "src\BlazorMaterialIcons.Demo.ServerApp\BlazorMaterialIcons.Demo.ServerApp.csproj", "{0260F3D4-11BD-4418-8FA0-03429DEE8E25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

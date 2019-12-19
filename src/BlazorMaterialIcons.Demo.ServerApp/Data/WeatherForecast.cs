@@ -1,6 +1,6 @@
 using System;
 
-namespace BlazorServer.Data
+namespace BlazorMaterialIcons.Demo.ServerApp.Data
 {
     public class WeatherForecast
     {

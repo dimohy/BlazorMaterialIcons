@@ -1,7 +1,7 @@
 using Microsoft.JSInterop;
 using System.Threading.Tasks;
 
-namespace BlazorMaterialIcon
+namespace BlazorMaterialIcons
 {
     public class ExampleJsInterop
     {

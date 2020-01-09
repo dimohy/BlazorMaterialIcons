@@ -1,6 +1,14 @@
 # BlazorMaterialIcons
 
 BlazorMaterialIcons is a library that helps you easily use Google's Material Icons in Blazor.
+You can see a list of all icons in [Google's Material Icons](https://material.io/resources/icons/?style=baseline)
+
+
+## Summary
+
+BlazorMaterialIcons is designed to make it easy to use Material icons in the Blazor. There is also a purpose to see what a simple Blazor library looks like. (My first Blazor library.)
+
+As you can see from the source code, this library is so simple that you can easily understand the Razor or Blazor environment.
 
 
 ## Install package
@@ -21,12 +29,6 @@ BlazorMaterialIcons is needed to access the Material icon in the font provided b
 </head>
 ```
 
-
-## Summary
-
-BlazorMaterialIcons is designed to make it easy to use Material icons in the Blazor. There is also a purpose to see what a simple Blazor library looks like. (My first Blazor library.)
-
-As you can see from the source code, this library is so simple that you can easily understand the Razor or Blazor environment.
 
 ## Usage
 

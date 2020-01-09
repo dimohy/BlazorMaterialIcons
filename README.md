@@ -19,7 +19,7 @@ Install BlazorMaterialIcons via NuGet in your project.
 Install-Package BlazorMaterialIcons -ProjectName YourProject
 ```
 
-Next, add the following to the head tag in **wwwroot/index.html** for Blazor Webassembly and **_Host.cshtml** for Blazor Server.
+Next, add the following to the head tag in **wwwroot/index.html** for Blazor Webassembly or **_Host.cshtml** for Blazor Server.
 BlazorMaterialIcons is needed to access the Material icon in the font provided by Google.
 
 ```html

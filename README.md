@@ -1,8 +1,7 @@
+# BlazorMaterialIcons
 [![latest version](https://img.shields.io/nuget/v/BlazorMaterialIcons)](https://www.nuget.org/packages/BlazorMaterialIcons)
 [![preview version](https://img.shields.io/nuget/v/BlazorMaterialIcons)](https://www.nuget.org/packages/BlazorMaterialIcons/absoluteLatest)
 [![downloads](https://img.shields.io/nuget/dt/BlazorMaterialIcons)](https://www.nuget.org/packages/BlazorMaterialIcons)
-
-# BlazorMaterialIcons
 
 BlazorMaterialIcons is a library that helps you easily use Google's Material Icons in Blazor.
 You can see a list of all icons in [Google's Material Icons](https://material.io/resources/icons/?style=baseline)

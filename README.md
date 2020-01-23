@@ -16,7 +16,7 @@ As you can see from the source code, this library is so simple that you can easi
 Install BlazorMaterialIcons via NuGet in your project.
 
 ```ps
-Install-Package BlazorMaterialIcons -ProjectName YourProject
+dotnet add package BlazorMaterialIcons
 ```
 
 Next, add the following to the head tag in **wwwroot/index.html** for Blazor Webassembly or **_Host.cshtml** for Blazor Server.
